@@ -11,14 +11,18 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Blog'
+    - title: 'startPunkt'
       url: '/'
     - title: 'Projekte'
       url: '/projects/'
-    - title: 'About'
-      url: '/about'
-    - title: 'Kontact'
+    - title: 'Publikationen'
+      url: '/public'
+    - title: 'Post'
       url: '/contact'
+    - title: 'imPressum'
+      url: '/imprint'
+    - title: 'English'
+      url: '/english'
 
 grid_settings:
   grid_spacing: 10

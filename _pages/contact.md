@@ -1,6 +1,6 @@
 ---
-title: Kontakt zu Nils Prause
-subtitle: 
+title: Post
+subtitle: Kontakt zu Nils Prause
 description: Kontaktformular für Nils Prause.
 ---
 
