@@ -3,3 +3,4 @@ _site/
 .jekyll-cache/
 _LICENSE.md
 _README.md
+*.bak

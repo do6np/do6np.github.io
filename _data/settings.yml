@@ -30,6 +30,7 @@ contact_settings:
   send_button_text: 'Abfahrt!'
 
 social_settings:
+  linkedin_url: 'https://de.linkedin.com/in/nils-prause-057329b3'
   facebook_url: ''
   twitter_url: ''
   instagram_url: ''
@@ -55,7 +56,6 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'https://de.linkedin.com/in/nils-prause-057329b3'
 
 color_settings:
   background_color: '#ffffff'
@@ -70,7 +70,7 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">'
+  font_embed: '<link href="/css/nunito.css" rel="stylesheet">'
   title_font: '"Nunito", sans-serif'
   body_font: '"Nunito", sans-serif'
   regular_weight: 400
