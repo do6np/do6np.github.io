@@ -1,6 +1,7 @@
 basic_settings:
   site_title: nils-prause.de
   site_tagline: Private Website
+  site_owner: Nils Prause
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -10,13 +11,13 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
+    - title: 'Blog'
       url: '/'
-    - title: 'Projects'
+    - title: 'Projekte'
       url: '/projects/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
+    - title: 'Kontact'
       url: '/contact'
 
 grid_settings:

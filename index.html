@@ -1,11 +1,26 @@
 ---
 layout: default
-title: A super simple blogging theme for Jekyll.
-description: Simples is a super simple blogging theme for Jekyll.
+title: nils-prause.de
+description: Private Webseite von Nils Prause aus Lotte, Osnabrück und Münster mit Inhalten zu E-Government, Amateurfunk, Accessibility, Barrierefreiheit und mehr.
 featured_image: /images/social.jpg
 ---
 
+<section class="single">
+
+	<div class="wrap">
+
+		<h1>Moin!</h1>
+
+		<p>1993 steckte ich zum ersten Mal ein Modemkabel in eine Telefondose (FidoNet und BTX). 30 Jahre später habe ich offenbar nicht viel dazugelernt und bin immer noch online.</p>
+		<p>Diese Webseite dient primär als Sprunganker zu weiteren Projekten sowie als lose Sammlung von Inhalten. Bei Fragen nutzen Sie gern das Kontaktformular.</p>
+		
+	</div>
+
+</section>
+
 <section class="listing single">
+
+		<h1>Aktuelles</h1>
 
 	<div class="wrap">
 
@@ -24,7 +39,7 @@ featured_image: /images/social.jpg
 
 			<div class="listing-post__content">
 				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
+				<p><a href="{{ post.url | relative_url }}" class="button">Mehr davon</a>
 			</div>
 
 		</article>
@@ -41,12 +56,12 @@ featured_image: /images/social.jpg
 
 	{% if paginator.previous_page %}
 	<div class="pagination__prev">
-		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Neuere Beiträge</span></a>
 	</div>
 	{% endif %}
 	{% if paginator.next_page %}
 	<div class="pagination__next">
-		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Ältere Beiträge</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	</div>
 	{% endif %}
 
