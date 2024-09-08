@@ -15,6 +15,8 @@ menu_settings:
       url: '/'
     - title: 'Projekte'
       url: '/projects/'
+    - title: 'Pinnwand'
+      url: '/notices/'
     - title: 'Publikationen'
       url: '/public'
     - title: 'Post'

@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  notices:
+    output: true
+    permalink: /notices/:slug
 
 defaults:
   -
@@ -38,6 +41,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "notices"
+    values:
+      layout: "notices"
 
 markdown: kramdown
 
@@ -54,4 +63,3 @@ plugins:
 
 paginate: 10
 paginate_path: "/blog/page:num/"
-  
