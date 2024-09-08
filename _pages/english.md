@@ -2,10 +2,6 @@
 title: English
 ---
 
-```html
-<span lang="en">
-```
-
 # Nils-Prause.de in English
 
 ## About
@@ -19,8 +15,4 @@ My first website was created in 1997, this is now the fourth version, still some
 If you are not familiar with the German language, the following projects might be of interest to you:
 
 * [Setup script for SvxLink repeater software on Github](https://github.com/do6np/svxlink_setup)
-* Some old FidoNet related software in the [download section of this website](/projects/software)
-
-```html
-</span>
-```
+* Some old FidoNet related software in the [download section of this website](/projects/software.html).
